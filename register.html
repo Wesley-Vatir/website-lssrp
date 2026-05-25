@@ -205,11 +205,7 @@
           <input id="discord" name="discord" type="text" placeholder="Nama#1234" required />
         </div>
 
-        <div>
-          <label for="password">Password</label>
-          <input id="password" name="password" type="password" minlength="8" placeholder="minimal 8 karakter" required />
-          <div class="pw-meter" aria-hidden="true"><i id="pwBar"></i></div>
-        </div>
+
 
         <div>
           <label style="display:flex;align-items:center;gap:8px"><input id="agree" type="checkbox" required /> Saya setuju rules server</label>
@@ -225,7 +221,7 @@
         <div class="small-note">Backend endpoint: <code style="color:var(--muted)">Weekend Reality Project</code> </div>
       </form>
 
-      <footer>© WEEKEND RP • New life for you</footer>
+      <footer>© Los Santos Stories RP • New life for you</footer>
     </aside>
   </main>
 
@@ -235,7 +231,7 @@
   // ----------------------------
 
   const form = document.getElementById('regForm');
-  const pw = document.getElementById('password');
+  
   const pwBar = document.getElementById('pwBar');
   const msg = document.getElementById('formMsg');
   const resetBtn = document.getElementById('resetBtn');
