@@ -4,10 +4,10 @@
 // sakhageloooo
 
 // ---------- CONFIG MYSQL ----------
-$dbHost = '127.0.0.1';
-$dbName = 'jgrp';
-$dbUser = 'root';
-$dbPass = '';
+$dbHost = '139.59.243.158';
+$dbName = 's45_tutorial';
+$dbUser = 'u45_1xemgigrhq';
+$dbPass = '=7Xtasv+88lPmZAmCvzEEYCt';
 // ----------------------------------------------------
 
 header('Content-Type: application/json; charset=utf-8');
