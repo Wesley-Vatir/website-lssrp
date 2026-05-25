@@ -2,10 +2,10 @@
 ini_set('display_errors',1);
 error_reporting(E_ALL);
 
-$dbHost = 'localhost';
-$dbName = 'jgrp';   // ganti sesuai nama DB
-$dbUser = 'root';       // ganti kalau bukan root
-$dbPass = '';           // ganti password jika ada
+$dbHost = '139.59.243.158';
+$dbName = 's45_tutorial';   // ganti sesuai nama DB
+$dbUser = 'u45_1xemgigrhq';       // ganti kalau bukan root
+$dbPass = '=7Xtasv+88lPmZAmCvzEEYCt';           // ganti password jika ada
 
 try {
   $pdo = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8mb4",$dbUser,$dbPass,[
